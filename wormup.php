@@ -21,5 +21,11 @@ $languages = ["PHP", "Java", "GO", "Python"];
 foreach ($languages as $language){
 	echo $language . "<br>";
 }
+
+function add($a, $b){
+	return $a + $b;
+}
+
+echo add(10, 20);
 ?>
 
