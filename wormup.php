@@ -15,5 +15,11 @@ if($age > 18){
 for($i = 1; $i <= 5; $i++){
 	echo $i. "<br>";
 }
+
+$languages = ["PHP", "Java", "GO", "Python"];
+
+foreach ($languages as $language){
+	echo $language . "<br>";
+}
 ?>
 
